@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+venv/
+.python-version
+.coverage
+htmlcov/
+
+# JavaScript/Next.js
+node_modules/
+.next/
+out/
+.pnpm-store/
+package-lock.json
+
+# System files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp

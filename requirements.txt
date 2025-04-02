@@ -1,2 +1,8 @@
 pydantic==2.5.3
-# add additional modules here
+llama-index>=0.10.0
+fastapi
+python-dotenv
+pdfplumber
+qdrant-client
+openai
+uvicorn
