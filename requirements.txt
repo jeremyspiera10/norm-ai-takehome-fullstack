@@ -1,5 +1,6 @@
-pydantic==2.5.3
-llama-index>=0.10.0
+pydantic
+llama-index
+llama-index-vector-stores-qdrant
 fastapi
 python-dotenv
 pdfplumber
