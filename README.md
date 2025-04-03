@@ -74,3 +74,8 @@ This repository contains a client and server codebase for a legal compliance cha
 - **Backend**: Python, FastAPI, Llama Index, OpenAI, Qdrant
 - **Frontend**: Next.js, Chakra UI, Tailwind CSS
 - **Containerization**: Docker
+
+
+## Reflective Reponse
+When it comes to using AI for critical purposes, the main concern is almost always that of the data. There are thousands of laws that are constantly changing, and AI can be very helpful in parsing and reading it. However, this means that properly querying the data must be made easier. In this take-home, Pydantic serves as a high level solution for parsing and reading PDFs to split up relevant laws. At a larger scale, however, these laws may need to be manually parsed to build the Pydantic shapes. 
+From a full-stack perspective, the main scalability concern is therefore centered on data ingestion. I beleive that an automated solution should be able to leverage AI not just in the legal compliance, but also in the data ingestion and to help create the Pydantic models. To solve this, a full-stack product would contain two pieces: one that is open to the end consumer, enabling them to check their own legal compliance, and another internal version that constantly scours new legal documents and generates these shapes, along with a comprehensive A.I testing suite to ensure these actions are providing consistent and accurate responses.
